@@ -35,6 +35,7 @@ body {
 	width: 100%;
 	position: fixed;
 	top: 0;
+	z-index: 3;
 }
 
 #courses-button {
@@ -60,6 +61,87 @@ body {
 	box-shadow:  0px 0px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+
+/* =============================================================================
+   Course content
+   ========================================================================== */
+
+#course #name {
+	height: 98px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: #F2F2F2;
+	z-index: 2;
+}
+
+#course h2 {
+	font-size: 21px;
+	font-family: "ArchitectsDaughterRegular";
+	line-height: 21px;
+	margin: 66px 0 20px 5px;
+	padding: 0 0 10px 0;
+}
+
+#course div {
+	width: 960px;
+}
+
+.shadow {
+	-webkit-box-shadow: 0 8px 4px -6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 8px 4px -6px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 8px 4px -6px rgba(0, 0, 0, 0.3);
+}
+
+#page-top,
+#page-hide {
+	position: relative;
+}
+
+#page-top {
+	padding: 98px 0 0 0;
+}
+
+.center {
+	width: 940px;
+	margin: 0 auto;
+}
+
+#course #photo {
+	width: 300px;
+	height: 360px;
+	float: left;
+	z-index: 1;
+}
+
+#course #video {
+	width: 640px;
+	float: right;
+	z-index: 1;
+}
+
+#course #information {
+	z-index: 1;
+}
+
+#course #information a {
+	width: 400px;
+	line-height: 36px;
+	background: #000;
+	margin: 18px 0;
+	display: block;
+}
+
+#occupation,
+#opportunities,
+#course,
+#labs,
+#projects,
+#events {
+	width: 100%;
+	height: 300px;
+}
+
 /* =============================================================================
    Footer
    ========================================================================== */
@@ -70,4 +152,43 @@ body {
 	background: #000;
 	position: fixed;
 	bottom: 0;
+	z-index: 3;
+}
+
+#footer #menu {
+	width: 630px;
+	margin: 0 auto;
+}
+
+#footer #menu ul {
+	width: 630px;
+	height: 18px; 
+	margin: 10px 18px 0 18px;
+	padding: 0;
+}
+
+#footer #menu ul li {
+	line-height: 16px;
+	float: left;
+	list-style-type: none;
+}
+
+#footer #menu ul li:first-child {
+	margin-right: 18px;
+}
+
+#footer #menu ul li:last-child {
+	margin: 0;
+}
+
+#footer #menu ul li + li {
+	padding-left: 18px;
+	margin-right: 18px;
+	border-left: 1px solid #fff;
+}
+
+#footer #menu ul li a {
+	color: #fff;
+	font-family: "ArchitectsDaughterRegular";
+	text-decoration: none;
 }
