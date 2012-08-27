@@ -33,4 +33,5 @@
 		<div id="signup-button">
 			<a href="#">Inscreva-se</a>
 		</div>
+		<div class="clear"></div>
 	</section>
