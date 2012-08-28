@@ -30,9 +30,12 @@ body {
 	clear: both;
 }
 
+.clear-left {
+	clear: left;
+}
+
 .center {
 	margin: 0 auto;
-	width: 940px;
 }
 
 /* =============================================================================
@@ -97,13 +100,14 @@ body {
    ========================================================================== */
 
 #scroll {
-	height: 2280px;
-	width: auto;
+	width: 4440px;
 	clear: both;
 }
 
 div.course {
-	width: 960px;
+	width: 940px;
+	float: left;
+	margin-left: 170px;
 }
 
 .shadow {
@@ -125,7 +129,13 @@ div.course {
 .video {
 	width: 640px;
 	height: 360px;
+	margin: 0 0 20px 0;
 	float: right;
+}
+
+.information {
+	padding: 20px 0 0 0;
+	border-top: 1px dotted #000
 }
 
 .information section {
