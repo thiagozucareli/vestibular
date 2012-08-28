@@ -26,14 +26,6 @@ body {
 
 }
 
-.clear {
-	clear: both;
-}
-
-.clear-left {
-	clear: left;
-}
-
 .center {
 	margin: 0 auto;
 }
@@ -108,6 +100,7 @@ div.course {
 	width: 940px;
 	float: left;
 	margin-left: 170px;
+	background: green;
 }
 
 .shadow {
@@ -160,10 +153,6 @@ div.course {
 	float: right;
 	-webkit-border-radius: 5px;
 	border-radius: 5px; 
-}
-
-.page-hide {
-	margin: 100px 0 0 0;
 }
 
 .occupation,

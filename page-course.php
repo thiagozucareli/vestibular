@@ -5,7 +5,7 @@ Template Name: Course page
 ?>
 
 <?php get_header(); ?>
-<div id="scroll" class="clear-left">
+<div id="scroll" class="clear">
 	<div class="course center clear">	
 		<section class="page-top center clear">
 			<div class="photo">
