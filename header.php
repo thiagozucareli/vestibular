@@ -35,3 +35,8 @@
 		</div>
 		<div class="clear"></div>
 	</section>
+	<section id="name">
+		<div class="center">
+			<h2>Bacharel em Design</h2>
+		<div>
+	</section>
