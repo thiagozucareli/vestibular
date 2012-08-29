@@ -32,22 +32,22 @@ Template Name: Course page
 			<div class="clear"></div>
 		</section>
 		<section class="page-hide">
-			<div class="occupation">
+			<div class="occupation red">
 
 			</div>
-			<div class="opportunities">
+			<div class="opportunities blue">
 
 			</div>
-			<div class="course-in">
+			<div class="course-in red">
 
 			</div>
-			<div class="labs">
+			<div class="labs blue">
 
 			</div>
-			<div class="projects">
+			<div class="projects red">
 
 			</div>
-			<div class="events">
+			<div class="events blue">
 
 			</div>
 			<div class="clear"></div>
@@ -72,30 +72,34 @@ Template Name: Course page
 					<div class="ordinance">
 						<p>Reconhecimento Port. Min. 1.843/1994</p>
 					</div>
+					<div class="clear"></div>
 				</section>
 				<a href="#">Mais informa&ccedil;&otilde;es do curso</a>
+				<div class="clear"></div>
 			</div>
+			<div class="clear"></div>
 		</section>
 		<section class="page-hide">
-			<div class="occupation">
+			<div class="occupation red">
 
 			</div>
-			<div class="opportunities">
+			<div class="opportunities blue">
 
 			</div>
-			<div class="course-in">
+			<div class="course-in red">
 
 			</div>
-			<div class="labs">
+			<div class="labs blue">
 
 			</div>
-			<div class="projects">
+			<div class="projects red">
 
 			</div>
-			<div class="events">
+			<div class="events blue">
 
 			</div>
+			<div class="clear"></div>
 		</section>
-	</div>
+	</div>	
 </div>
 <?php get_footer(); ?>

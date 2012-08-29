@@ -38,5 +38,5 @@
 	<section id="name">
 		<div class="center shadow">
 			<h2>Bacharel em Design</h2>
-		<div>
+		</div>
 	</section>
