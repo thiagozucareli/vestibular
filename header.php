@@ -36,7 +36,7 @@
 		<div class="clear"></div>
 	</section>
 	<section id="name">
-		<div class="center">
+		<div class="center shadow">
 			<h2>Bacharel em Design</h2>
 		<div>
 	</section>
