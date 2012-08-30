@@ -9,27 +9,15 @@ Template Name: Course page
 	<div class="course center">	
 		<section class="page-top center">
 			<div class="photo">
+				<img src="http://localhost:8888/vestibular/wp-content/themes/vestibular/images/jonas/jonas.png" width="300" height="360">
 			</div>
 			<div class="video">
 				<iframe width="640" height="360" src="http://www.youtube.com/embed/C5mnU2JelWs?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<div class="information">
-				<section>
-					<div class="duration">
-						<p>4 anos</p>
-					</div>
-					<div class="space">
-						<p>40 vagas</p>
-					</div>
-					<div class="ordinance">
-						<p>Reconhecimento Port. Min. 1.843/1994</p>
-					</div>
-					<div class="clear"></div>
-				</section>
-				<a href="#">Mais informa&ccedil;&otilde;es do curso</a>
-				<div class="clear"></div>
-			</div>
+
 			<div class="clear"></div>
+
+			<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
 		</section>
 		<section class="page-hide">
 			<div class="occupation red">
@@ -53,31 +41,18 @@ Template Name: Course page
 			<div class="clear"></div>
 		</section>
 	</div>
-
 	<div class="course center">	
 		<section class="page-top center">
 			<div class="photo">
+				<img src="http://localhost:8888/vestibular/wp-content/themes/vestibular/images/jonas/jonas2.png" width="300" height="360">
 			</div>
 			<div class="video">
 				<iframe width="640" height="360" src="http://www.youtube.com/embed/C5mnU2JelWs?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<div class="information">
-				<section>
-					<div class="duration">
-						<p>4 anos</p>
-					</div>
-					<div class="space">
-						<p>40 vagas</p>
-					</div>
-					<div class="ordinance">
-						<p>Reconhecimento Port. Min. 1.843/1994</p>
-					</div>
-					<div class="clear"></div>
-				</section>
-				<a href="#">Mais informa&ccedil;&otilde;es do curso</a>
-				<div class="clear"></div>
-			</div>
+
 			<div class="clear"></div>
+
+			<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
 		</section>
 		<section class="page-hide">
 			<div class="occupation red">
@@ -100,6 +75,6 @@ Template Name: Course page
 			</div>
 			<div class="clear"></div>
 		</section>
-	</div>	
+	</div>
 </div>
 <?php get_footer(); ?>

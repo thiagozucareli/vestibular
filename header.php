@@ -36,7 +36,15 @@
 		<div class="clear"></div>
 	</section>
 	<section id="name">
-		<div class="center shadow">
+		<div class="center">
 			<h2>Bacharel em Design</h2>
+		</div>
+	</section>
+	<section id="slide-button">
+		<div id="previous">
+			<a href="#"></a>
+		</div>
+		<div id="next">
+			<a href="#"></a>
 		</div>
 	</section>
