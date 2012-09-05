@@ -5,6 +5,23 @@ Template Name: Course page
 ?>
 
 <?php get_header(); ?>
+
+<section id="name">
+	<div class="center">
+		<h2>Bacharel em Design</h2>
+	</div>
+</section>
+<section id="slide-button">
+		<a href="#" class="previous" id="previous-hover">
+			<img src="http://localhost:8888/vestibular/wp-content/themes/vestibular/images/previous-arrow.png">
+			<p>Bacharel em Biologia</p>
+		</a>
+		<a href="#" class="next" id="next-hover">
+			<img src="http://localhost:8888/vestibular/wp-content/themes/vestibular/images/next-arrow.png">
+			<p>Bacharel em Emfermagem</p>
+		</a>
+</section>
+
 <div id="scroll">
 	<div class="course center">	
 		<section class="page-top center">
@@ -20,22 +37,22 @@ Template Name: Course page
 			<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
 		</section>
 		<section class="page-hide">
-			<div class="occupation red">
+			<div class="occupation">
 
 			</div>
-			<div class="opportunities blue">
+			<div class="opportunities">
 
 			</div>
-			<div class="course-in red">
+			<div class="course-in">
 
 			</div>
-			<div class="labs blue">
+			<div class="labs">
 
 			</div>
-			<div class="projects red">
+			<div class="projects">
 
 			</div>
-			<div class="events blue">
+			<div class="events">
 
 			</div>
 			<div class="clear"></div>
@@ -55,22 +72,22 @@ Template Name: Course page
 			<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
 		</section>
 		<section class="page-hide">
-			<div class="occupation red">
+			<div class="occupation">
 
 			</div>
-			<div class="opportunities blue">
+			<div class="opportunities">
 
 			</div>
-			<div class="course-in red">
+			<div class="course-in">
 
 			</div>
-			<div class="labs blue">
+			<div class="labs">
 
 			</div>
-			<div class="projects red">
+			<div class="projects">
 
 			</div>
-			<div class="events blue">
+			<div class="events">
 
 			</div>
 			<div class="clear"></div>
