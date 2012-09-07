@@ -12,13 +12,13 @@ Template Name: Course page
 	</div>
 </section>
 <section id="slide-button">
-		<a href="#" class="previous" id="previous-hover">
+		<a href="#" id="previous">
 			<img src="http://localhost:8888/vestibular/wp-content/themes/vestibular/images/previous-arrow.png">
-			<p>Bacharel em Biologia</p>
+			<!-- <p>Bacharel em Biologia</p> -->
 		</a>
-		<a href="#" class="next" id="next-hover">
+		<a href="#" id="next">
 			<img src="http://localhost:8888/vestibular/wp-content/themes/vestibular/images/next-arrow.png">
-			<p>Bacharel em Emfermagem</p>
+			<!-- <p>Bacharel em Emfermagem</p> -->
 		</a>
 </section>
 

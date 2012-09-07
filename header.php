@@ -24,14 +24,6 @@
 	<body>
 	<section id="header">
 		<div id="courses-button">
-			<a href="#">Cursos</a>
-			<!-- <ul id="courses-list">
-				<li id="course">
-				</li>
-			</ul> -->
+			<a href="#"><p>Veja outros cursos</p></a>
 		</div>
-		<div id="signup-button">
-			<a href="#">Inscreva-se</a>
-		</div>
-		<div class="clear"></div>
 	</section>
