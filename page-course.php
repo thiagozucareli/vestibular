@@ -5,7 +5,11 @@ Template Name: Course page
 ?>
 
 <?php get_header(); ?>
-
+<section id="header">
+	<div id="courses-button">
+		<a href="#"><p>Veja outros cursos</p></a>
+	</div>
+</section>
 <section id="name">
 	<div class="center">
 		<h2>Bacharel em Design</h2>
@@ -13,12 +17,12 @@ Template Name: Course page
 </section>
 <section id="slide-button">
 		<a href="#" id="previous">
-			<img src="http://localhost:8888/vestibular/wp-content/themes/vestibular/images/previous-arrow.png">
-			<!-- <p>Bacharel em Biologia</p> -->
+			<div id="previous-arrow"></div>
+			<p>Bacharel em Biologia</p>
 		</a>
 		<a href="#" id="next">
-			<img src="http://localhost:8888/vestibular/wp-content/themes/vestibular/images/next-arrow.png">
-			<!-- <p>Bacharel em Emfermagem</p> -->
+			<div id="next-arrow"></div>
+			<p>Bacharel em Emfermagem</p>
 		</a>
 </section>
 

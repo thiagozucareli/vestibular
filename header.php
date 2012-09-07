@@ -22,8 +22,3 @@
 		?>
 	</head>
 	<body>
-	<section id="header">
-		<div id="courses-button">
-			<a href="#"><p>Veja outros cursos</p></a>
-		</div>
-	</section>
