@@ -98,7 +98,7 @@ body * {
 
 #name h2 {
 	width: 960px;
-	font-size: 21px;
+	font-size: 30px;
 	font-family: "CubanoRegular";
 	text-transform: uppercase;
 	line-height: 21px;
@@ -163,7 +163,7 @@ body * {
 
 #previous p,
 #next p {
-	display: none;
+	visibility: hidden;	
 }
 
 .previous-hover,
@@ -180,6 +180,7 @@ body * {
 	text-transform: uppercase;
 	background: #fff;
 	color: #000;
+	visibility: visible;
 }
 
 .previous-hover img {
@@ -269,6 +270,32 @@ div.course {
 	height: 300px;
 	border-top: 1px dotted #000;
 	clear: both;
+}
+
+#menu-courses {
+	width: 250px;
+}
+
+#menu-courses ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menu-courses ul li {
+
+}
+
+#menu-courses ul li a {
+	background: #7DC3CB;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: 'CubanoRegular';
+	line-height: 45px;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-shadow: 0.1em 0.1em #333;
+
 }
 
 /* =============================================================================
