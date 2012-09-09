@@ -39,23 +39,20 @@ Template Name: Course page
 			<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
 		</section>
 		<section class="page-hide">
-			<div class="occupation">
-
+			<div class="information">
+				<h3>Infoma&ccedil;&otilde;es</h3>
 			</div>
-			<div class="opportunities">
-
+			<div class="what-is">
+				<h3>O que &eacute; a profiss&atilde;o:</h3>
 			</div>
 			<div class="course-in">
-
+				<h3>"Nome do curso" na FATEA</h3>
 			</div>
 			<div class="labs">
-
+				<h3>Laborat&oacute;rios utilizados</h3>
 			</div>
 			<div class="projects">
-
-			</div>
-			<div class="events">
-
+				<h3>A&ccedil;&otilde;es e projetos de extens&atilde;o</h3>
 			</div>
 			<div class="clear"></div>
 		</section>
