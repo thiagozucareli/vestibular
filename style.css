@@ -209,6 +209,19 @@ body * {
    Course content
    ========================================================================== */
 
+div.caroufredsel_wrapper {
+	margin: 0 auto !important;
+	min-height: 2500px !important;
+	overflow: hidden !important;
+	position: relative !important;
+	width: 940px !important;
+	top: none !important;
+	right: none !important;
+	bottom: none!important;
+	left: none !important;
+	float: none !important;
+}
+
 #scroll {
 	width: 4440px;
 	clear: both;
@@ -216,10 +229,14 @@ body * {
 	margin: 0 auto;
 }
 
+div.course:first-child {
+	margin-left: 0;
+}
+
 div.course {
 	width: 940px;
 	float: left;
-	margin-left: 100px;
+	margin-left: 100px; 
 }
 
 .shadow {
