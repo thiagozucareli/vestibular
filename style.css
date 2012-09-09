@@ -78,9 +78,6 @@ body * {
 	color: #000;
 	background: #7dc3cb;
 	margin: 0 auto;
-	border-radius: 0 0 5px 5px;
-	-webkit-border-radius: 0 0 5px 0;
-	-moz-border-radius: 0 0 5px 0;
 }
 
 #courses-button a p {
@@ -147,11 +144,11 @@ body * {
 }
 
 #previous-arrow {
-	background: url('images/arrows.png') no-repeat 0 0;
+	background: url('images/arrows.png') no-repeat -34px 0;
 }
 
 #next-arrow {
-	background: url('images/arrows.png') no-repeat -34px 0;
+	background: url('images/arrows.png') no-repeat 0 0;
 }
 
 #next {
