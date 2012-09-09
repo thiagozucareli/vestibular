@@ -114,7 +114,7 @@ body * {
 
 #slide-button {
 	width: 100%;
-	margin-top: -6%;
+	margin-top: -70px;
 	position: fixed;
 	top: 50%;
 	z-index: 3;
@@ -209,15 +209,24 @@ body * {
    Course content
    ========================================================================== */
 
+#content-hiden {
+	width: 940px;
+	height: 2500px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+
 #scroll {
 	width: 4440px;
 	clear: both;
+	position: absolute;
 }
 
 div.course {
 	width: 940px;
 	float: left;
-	margin-left: 165px;
+	margin-left: 100px;
 }
 
 .shadow {
