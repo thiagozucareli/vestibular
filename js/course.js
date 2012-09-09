@@ -4,7 +4,7 @@ jQuery(document).ready( function($) {
 		align: 'center',
 		prev: '#previous',
 		next: '#next',
-		auto: {play: false}
+		auto: {play: false},
 		items: {start: true}
 
 	});
