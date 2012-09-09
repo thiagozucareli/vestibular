@@ -3,7 +3,6 @@
 Template Name: Course page
 */
 ?>
-
 <?php get_header(); ?>
 <section id="header">
 	<div id="courses-button">
