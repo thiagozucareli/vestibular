@@ -209,18 +209,11 @@ body * {
    Course content
    ========================================================================== */
 
-#content-hiden {
-	width: 940px;
-	height: 2500px;
-	overflow: hidden;
-	position: relative;
-	margin: 0 auto;
-}
-
 #scroll {
 	width: 4440px;
 	clear: both;
 	position: absolute;
+	margin: 0 auto;
 }
 
 div.course {
