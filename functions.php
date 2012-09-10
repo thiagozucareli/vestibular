@@ -20,6 +20,15 @@
 		echo get_the($field) ;
 	}
 
+	function the_video_or_thumbnail(){
+		global $post;
+		if(get_the('video_url') != ''){
+			echo wp_oembed_get(get_the('video_url'), array('width' => 640, 'height' => 360));
+		} else {
+			the_post_thumbnail('original');
+		}
+	}
+
 	function the_page_description(){
 		global $post_type ;
 		$page = get_posts(array('post_type' => 'page', 'pagename' => get_post_type_object($post_type)->rewrite['slug'])) ; 
