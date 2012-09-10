@@ -17,11 +17,19 @@ Template Name: Course page
 <section id="slide-button">
 		<a href="#<?php echo $posts[sizeof($posts)-1]->post_name ?>" id="previous">
 			<div id="previous-arrow"></div>
-			<p><?php echo $posts[sizeof($posts)-1]->post_title ?></p>
+			<div class="content-button">
+				<div class="middle">
+					<p><?php echo $posts[sizeof($posts)-1]->post_title ?></p>
+				</div>
+			</div>
 		</a>
 		<a href="#<?php echo $posts[1]->post_name ?>" id="next">
 			<div id="next-arrow"></div>
-			<p><?php echo $posts[1]->post_title ?></p>
+			<div class="content-button">
+				<div class="middle">
+					<p><?php echo $posts[1]->post_title ?></p>
+				</div>
+			</div>
 		</a>
 </section>
 <ul id="scroll">
