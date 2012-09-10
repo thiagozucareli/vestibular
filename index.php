@@ -51,7 +51,7 @@
 		</ul>
 	</div>
 
-	<section>
+	<section id="content-home">
 			<div class="photo">
 				<img src="<?php echo get_stylesheet_directory_uri() ?>/images/jonas/jonas.png" width="300" height="360">
 			</div>
