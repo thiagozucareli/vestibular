@@ -24,8 +24,8 @@ Template Name: Course page
 			<p>Bacharel em Emfermagem</p>
 		</a>
 </section>
-<div id="scroll">
-	<div class="course center">	
+<ul id="scroll">
+	<li class="course center">	
 		<section class="page-top center">
 			<div class="photo">
 				<img src="<?php echo get_stylesheet_directory_uri() ?>/images/jonas/jonas.png" width="300" height="360">
@@ -56,8 +56,8 @@ Template Name: Course page
 			</div>
 			<div class="clear"></div>
 		</section>
-	</div>
-	<div class="course center">	
+	</li>
+	<li class="course center">	
 		<section class="page-top center">
 			<div class="photo">
 				<img src="<?php echo get_stylesheet_directory_uri() ?>/images/jonas/jonas2.png" width="300" height="360">
@@ -91,6 +91,6 @@ Template Name: Course page
 			</div>
 			<div class="clear"></div>
 		</section>
-	</div>
-</div>
+	</li>
+</ul>
 <?php get_footer(); ?>
