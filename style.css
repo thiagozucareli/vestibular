@@ -224,6 +224,7 @@ div.caroufredsel_wrapper {
 	clear: both;
 	position: absolute;
 	margin: 0 auto;
+	padding: 0;
 }
 
 li.course:first-child {

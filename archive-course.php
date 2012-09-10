@@ -29,7 +29,7 @@ Template Name: Course page
 		<li class="course center">	
 			<section class="page-top center">
 				<div class="photo">
-					<img src="<?php echo get_stylesheet_directory_uri() ?>/images/jonas/jonas.png" width="300" height="360">
+					<?php the_post_thumbnail('original') ?>
 				</div>
 				<div class="video">
 					<?php echo wp_oembed_get(get_the('video_url'), array('width' => 640, 'height' => 360)) ?>
