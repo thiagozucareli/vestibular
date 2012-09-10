@@ -233,7 +233,9 @@ li.course:first-child {
 li.course {
 	width: 940px;
 	float: left;
-	margin-left: 100px; 
+	margin-left: 100px;
+	list-style-type: none;
+
 }
 
 .page-top {
