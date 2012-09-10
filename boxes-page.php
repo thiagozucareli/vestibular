@@ -3,7 +3,7 @@
 	<?php foreach ($pages as $page): ?>
 		<div class="page" id="<?php echo $page->post_name ?>">
 			<h2><?php echo $page->post_title ?></h2>
-			<?php echo $page->post_content ?>
+			<p><?php echo $page->post_content ?></p>
 		</div>
 	<?php endforeach ?>
 </section>
