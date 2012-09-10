@@ -11,7 +11,7 @@ Template Name: Course page
 </section>
 <section id="name">
 	<div class="center">
-		<h2><?php the_title() ?></h2>
+		<h2><?php echo the_('type').' em '.get_the_title() ?></h2>
 	</div>
 </section>
 <section id="slide-button">
@@ -26,7 +26,7 @@ Template Name: Course page
 </section>
 <ul id="scroll">
 	<?php while(have_posts()): the_post(); ?>
-		<li class="course center" title="<?php the_title() ?>" id="<?php echo $post->post_name ?>">	
+		<li class="course center" title="<?php echo the_('type').' em '.get_the_title() ?>" id="<?php echo $post->post_name ?>">	
 			<section class="page-top center">
 				<div class="photo">
 					<?php the_post_thumbnail('original') ?>
