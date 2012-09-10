@@ -10,12 +10,8 @@
 
 @import url("../boilerplate/style.css");
 
-html {
-	margin: 0!important; 
-}
-
 body {
-	background: #F1f1f1;
+	background: url('images/shattered.png') fixed repeat;
 }
 
 a {
@@ -90,7 +86,7 @@ a {
 	width: 100%;
 	position: fixed;
 	top: 0;
-	background: #F2F2F2;
+	background: url('images/shattered.png') repeat;
 	z-index: 2;
 }
 
@@ -323,7 +319,7 @@ li.course {
 }
 
 #menu-courses {
-	width: 320px;
+	width: 350px;
 	margin-top: 20px;
 	float: left;
 }
@@ -352,7 +348,7 @@ li.course {
 #content-home {
 	float: right;
 	margin-right: 4%;
-	width: 890px
+	width: 860px
 }
 
 .identity {
@@ -367,7 +363,7 @@ li.course {
 }
 
 .photo-home {
-	margin-left: 60px;
+	margin-left: 20px;
 	margin-top: 20px;
 	width: 171px;
 }
@@ -410,6 +406,11 @@ li.course {
 div.page {
 	padding: 20px;
 }
+
+div.page h2 {
+	font-family: 'Gotham-Ultra';
+}
+
 /* =============================================================================
    Footer
    ========================================================================== */
@@ -424,7 +425,7 @@ div.page {
 }
 
 #footer #menu ul {
-	width: 750px;
+	width: 760px;
 	height: 18px; 
 	margin: 0 auto;
 	padding: 10px 0 0 0;
