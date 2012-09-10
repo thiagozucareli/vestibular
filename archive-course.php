@@ -29,10 +29,10 @@ Template Name: Course page
 		<li class="course center" title="<?php echo the_('type').' em '.get_the_title() ?>" id="<?php echo $post->post_name ?>">	
 			<section class="page-top center">
 				<div class="photo">
-					<?php the_post_thumbnail('original') ?>
+					<img src="<?php the_('guy_photo') ?>">
 				</div>
 				<div class="video">
-					<?php echo wp_oembed_get(get_the('video_url'), array('width' => 640, 'height' => 360)) ?>
+					<?php the_video_or_thumbnail() ?>
 				</div>
 
 					<div class="clear"></div>
