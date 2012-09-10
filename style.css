@@ -11,7 +11,7 @@
 @import url("../boilerplate/style.css");
 
 body {
-	background: #F2F2F2;
+	background: #F1f1f1;
 }
 
 a {
@@ -268,7 +268,6 @@ li.course {
 .video {
 	width: 640px;
 	height: 360px;
-	margin: 0 0 20px 0;
 	float: right;
 }
 
@@ -342,9 +341,28 @@ li.course {
 }
 
 #content-home {
-	width: 940px;
+	float: right;
+	margin-right: 60px;
+	width: 900px
+}
+
+.identity {
+	float: right;
+	margin-bottom: 20px;
+	width: 640px
+}
+
+.tag,
+.slogan {
 	float: right;
 }
+
+.photo-home {
+	margin-left: 89px;
+    margin-top: 40px;
+    width: 171px;
+}
+
 
 /* =============================================================================
    Footer
