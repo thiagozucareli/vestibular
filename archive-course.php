@@ -11,7 +11,7 @@ Template Name: Course page
 </section>
 <section id="name">
 	<div class="center">
-		<h2>Bacharel em Design</h2>
+		<h2><?php the_title() ?></h2>
 	</div>
 </section>
 <section id="slide-button">
@@ -25,72 +25,58 @@ Template Name: Course page
 		</a>
 </section>
 <div id="scroll">
-	<div class="course center">	
-		<section class="page-top center">
-			<div class="photo">
-				<img src="<?php echo get_stylesheet_directory_uri() ?>/images/jonas/jonas.png" width="300" height="360">
-			</div>
-			<div class="video">
-				<iframe width="640" height="360" src="http://www.youtube.com/embed/C5mnU2JelWs?rel=0" frameborder="0" allowfullscreen></iframe>
-			</div>
+	<?php while(get_posts()): the_post(); ?>
+		<div class="course center">	
+			<section class="page-top center">
+				<div class="photo">
+					<img src="<?php echo get_stylesheet_directory_uri() ?>/images/jonas/jonas.png" width="300" height="360">
+				</div>
+				<div class="video">
+					<?php echo wp_oembed_get(get_the('video_url'), array('width' => 640, 'height' => 360)) ?>
+				</div>
 
-			<div class="clear"></div>
+				<div class="clear"></div>
 
-			<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
-		</section>
-		<section class="page-hide">
-			<div class="information">
-				<h3>Infoma&ccedil;&otilde;es</h3>
-			</div>
-			<div class="what-is">
-				<h3>O que &eacute; a profiss&atilde;o:</h3>
-			</div>
-			<div class="course-in">
-				<h3>"Nome do curso" na FATEA</h3>
-			</div>
-			<div class="labs">
-				<h3>Laborat&oacute;rios utilizados</h3>
-			</div>
-			<div class="projects">
-				<h3>A&ccedil;&otilde;es e projetos de extens&atilde;o</h3>
-			</div>
-			<div class="clear"></div>
-		</section>
-	</div>
-	<div class="course center">	
-		<section class="page-top center">
-			<div class="photo">
-				<img src="<?php echo get_stylesheet_directory_uri() ?>/images/jonas/jonas2.png" width="300" height="360">
-			</div>
-			<div class="video">
-				<iframe width="640" height="360" src="http://www.youtube.com/embed/C5mnU2JelWs?rel=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="clear"></div>
-
-			<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
-		</section>
-		<section class="page-hide">
-			<div class="occupation">
-
-			</div>
-			<div class="opportunities">
-
-			</div>
-			<div class="course-in">
-
-			</div>
-			<div class="labs">
-
-			</div>
-			<div class="projects">
-
-			</div>
-			<div class="events">
-
-			</div>
-			<div class="clear"></div>
-		</section>
-	</div>
+				<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
+			</section>
+			<section class="page-hide">
+				<div class="information">
+					<h3>Informações</h3>
+					<p>
+						<?php the_('periodicy') ?>
+					</p>
+					<p>
+						<?php the_('spaces') ?> vagas
+					</p>
+					<p>
+						<?php the_('period') ?>
+					</p>
+					<p>
+						<?php the_('status') ?> (portarias etc)
+					</p>
+					<p>
+						<?php the_('duration') ?> anos
+					</p>
+				</div>
+				<div class="what-is">
+					<h3>O que &eacute; a profiss&atilde;o:</h3>
+					<?php the_('profession') ?>
+				</div>
+				<div class="course-in">
+					<h3><?php the_title() ?> na FATEA</h3>
+					<?php the_('about') ?>
+				</div>
+				<div class="labs">
+					<h3>Laborat&oacute;rios utilizados</h3>
+					<?php the_('labs') ?>
+				</div>
+				<div class="projects">
+					<h3>A&ccedil;&otilde;es e projetos de extens&atilde;o</h3>
+					<?php the_('projects') ?>
+				</div>
+				<div class="clear"></div>
+			</section>
+		</div>
+	<?php endwhile ?>
 </div>
 <?php get_footer(); ?>
