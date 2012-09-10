@@ -14,6 +14,10 @@ body {
 	background: #F2F2F2;
 }
 
+a {
+	text-decoration: none;
+}
+
 @font-face {
 		font-family: 'Gotham-Ultra';
 		src: url('font/gotham-ultra.eot');
@@ -56,26 +60,21 @@ body {
 	z-index: 3;
 	clear: both;
 }
-#header a {
-	width: 200px;
+
+#courses-button a {
 	line-height: 36px;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
 	font-family: "Gotham-Ultra";
 	font-size: 18px;
 	text-transform: uppercase;
-	background: #0f0c75; 
-	display: block;
-	-webkit-box-shadow: 4px 4px 0 0 #FD9F00;    
-	box-shadow: 4px 4px 0 0 #FD9F00;
-}
-
-#courses-button a {
 	width: 250px;
 	color: #000;
 	background: #7dc3cb;
 	margin: 0 auto;
+	display: block;
+	-webkit-box-shadow: 4px 4px 0 0 #FD9F00;    
+	box-shadow: 4px 4px 0 0 #FD9F00;
 }
 
 #courses-button a p {
@@ -138,14 +137,17 @@ body {
 #next-arrow {
 	width: 25px; 
 	height: 45px;
-	margin: 50px 0 0 5px;
 }
 
 #previous-arrow {
+	float: right;
+	margin: 50px 10px 0 0;
 	background: url('images/arrows.png') no-repeat -34px 0;
 }
 
 #next-arrow {
+	float: left;
+	margin: 50px 0 0 10px;
 	background: url('images/arrows.png') no-repeat 0 0;
 }
 
@@ -175,7 +177,7 @@ body {
 	text-transform: uppercase;
 	background: #fff;
 	color: #000;
-	visibility: visible;
+	visibility: visible !important;
 }
 
 .previous-hover img {
@@ -224,11 +226,11 @@ div.caroufredsel_wrapper {
 	margin: 0 auto;
 }
 
-div.course:first-child {
+li.course:first-child {
 	margin-left: 0;
 }
 
-div.course {
+li.course {
 	width: 940px;
 	float: left;
 	margin-left: 100px; 
@@ -296,12 +298,13 @@ div.course {
 
 #menu-courses {
 	width: 300px;
+	float: left;
 }
 
 #menu-courses ul {
 	list-style-type: none;
 	padding: 0;
-	margin: 18px 0 0 0;
+	margin: 0;
 }
 
 #menu-courses ul li a {
@@ -315,6 +318,8 @@ div.course {
 	text-transform: uppercase;
 	text-shadow: 0.1em 0.1em #333;
 	letter-spacing: 1px;
+	-webkit-box-shadow: 4px 4px 0 0 #FD9F00;    
+	box-shadow: 4px 4px 0 0 #FD9F00;
 }
 
 /* =============================================================================

@@ -24,9 +24,9 @@ Template Name: Course page
 			<p>Bacharel em Emfermagem</p>
 		</a>
 </section>
-<div id="scroll">
+<ul id="scroll">
 	<?php while(get_posts()): the_post(); ?>
-		<div class="course center">	
+		<li class="course center">	
 			<section class="page-top center">
 				<div class="photo">
 					<img src="<?php echo get_stylesheet_directory_uri() ?>/images/jonas/jonas.png" width="300" height="360">
@@ -35,9 +35,8 @@ Template Name: Course page
 					<?php echo wp_oembed_get(get_the('video_url'), array('width' => 640, 'height' => 360)) ?>
 				</div>
 
-				<div class="clear"></div>
-
-				<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
+					<div class="clear"></div>
+					<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
 			</section>
 			<section class="page-hide">
 				<div class="information">
@@ -76,7 +75,7 @@ Template Name: Course page
 				</div>
 				<div class="clear"></div>
 			</section>
-		</div>
+		</li>
 	<?php endwhile ?>
-</div>
+</ul>
 <?php get_footer(); ?>
