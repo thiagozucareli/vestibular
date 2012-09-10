@@ -36,10 +36,10 @@ Template Name: Course page
 				</div>
 
 					<div class="clear"></div>
-					<a class="center" href="#"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
+					<a class="center more-information" href="#information-<?php echo $post->ID ?>"><p>Mais informa&ccedil;&otilde;es do curso</p></a>
 			</section>
 			<section class="page-hide">
-				<div class="information">
+				<div class="information" id="information-<?php echo $post->ID ?>">
 					<h3>Informações</h3>
 					<p>
 						<?php the_('periodicy') ?>
