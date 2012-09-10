@@ -147,7 +147,7 @@ a {
 
 #next-arrow {
 	float: left;
-	margin: 50px 0 0 10px;
+	margin: 50px 5px 0 10px;
 	background: url('images/arrows.png') no-repeat 0 0;
 }
 
@@ -156,6 +156,19 @@ a {
 	border-radius: 5px 0px 0 5px;
 	-webkit-border-radius: 5px 0 0 5px;
 	-moz-border-radius: 5px 0 0 5px;
+}
+
+.content-button {
+	background:	#fff !important;
+	display: table;
+ 	height: 140px;
+ 	visibility: hidden;
+}
+
+.content-button .middle {
+	display: table-cell;
+	padding: 0 5px 0 10px;
+	vertical-align: middle;
 }
 
 #previous p,
@@ -180,6 +193,11 @@ a {
 	visibility: visible !important;
 }
 
+.previous-hover .content-button,
+.next-hover .content-button {
+	visibility: visible !important;
+}
+
 .previous-hover img {
 	float: right;
 	margin: 45px 10px 0 0 !important;
@@ -188,7 +206,6 @@ a {
 .previous-hover p {
 	float: left;
 	margin: 0;
-	padding: 20% 5px 20% 10px;
 }
 
 .next-hover img {
@@ -199,7 +216,6 @@ a {
 .next-hover p {
 	float: right;
 	margin: 0;
-	padding: 20% 10px 20% 5px;
 }
 
 /* =============================================================================
