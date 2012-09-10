@@ -6,7 +6,7 @@ Template Name: Course page
 <?php get_header(); ?>
 <section id="header">
 	<div id="courses-button">
-		<a href="#"><p>Veja outros cursos</p></a>
+		<a href="<?php bloginfo('url'); ?>"><p>Veja outros cursos</p></a>
 	</div>
 </section>
 <section id="name">
