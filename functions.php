@@ -5,7 +5,7 @@
 			return get_post_meta($post->ID, $field, true); 
 		if (empty($post_object) || $post_object->ID != $post->ID){
 			$post_type = $post->post_type ; 
-			$class = 'FateaVestibular\\' . ucfirst($post_type) ;
+			$class = '\\FateaVestibular\\' . ucfirst($post_type) ;
 			$post_object = new $class($post) ;
 		}
 		return $post_object->$field ;

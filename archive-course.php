@@ -25,7 +25,7 @@ Template Name: Course page
 		</a>
 </section>
 <ul id="scroll">
-	<?php while(get_posts()): the_post(); ?>
+	<?php while(have_posts()): the_post(); ?>
 		<li class="course center">	
 			<section class="page-top center">
 				<div class="photo">
